@@ -1,0 +1,5 @@
+# Yellow Flash dependencies
+# Python version requirement
+python >= 3.8
+
+# No external dependencies required
