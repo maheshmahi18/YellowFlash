@@ -1,5 +1,6 @@
 ---
 
+````markdown
 # 🌩️ Yellow Flash
 
 **Yellow Flash** is a powerful and recursive file system scanner built in Python. It traverses all folders and subfolders from a given path, logs traversal steps, detects **hidden files**, and handles **access-restricted directories**. The logs are categorized and saved after the scan into organized text files.
@@ -8,24 +9,24 @@
 
 ## 📚 Table of Contents
 
-* [Features](#features)
-* [Installation and Setup](#installation-and-setup)
-* [Usage](#usage)
-* [Output File Structure](#output-file-structure)
-* [Customization](#customization)
-* [Credits](#credits)
-* [Contributing](#contributing)
-* [License](#license)
+- [Features](#features)  
+- [Installation and Setup](#installation-and-setup)  
+- [Usage](#usage)  
+- [Output File Structure](#output-file-structure)  
+- [Customization](#customization)  
+- [Credits](#credits)  
+- [Contributing](#contributing)  
+- [License](#license)
 
 ---
 
 ## 🚀 Features
 
-* Recursively traverses all folders and subfolders in the specified path.
-* Identifies and logs **hidden files** based on selected file type category (e.g., videos, images, audio, text).
-* Categorizes and logs **restricted paths**, **hidden files**, and **all traversed paths**.
-* Outputs logs to a `Test` folder with proper file size management (splitting if needed).
-* Live display of folder traversal in the terminal.
+- Recursively traverses all folders and subfolders in the specified path.
+- Identifies and logs **hidden files** based on selected file type category (e.g., videos, images, audio, text).
+- Categorizes and logs **restricted paths**, **hidden files**, and **all traversed paths**.
+- Outputs logs to a `Test` folder with proper file size management (splitting if needed).
+- Live display of folder traversal in the terminal.
 
 ---
 
@@ -36,7 +37,7 @@
 ```bash
 git clone https://github.com/maheshmahi18/yellow-flash.git
 cd yellow-flash
-```
+````
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
 
@@ -80,11 +81,11 @@ The program will:
 
 The logs will be saved under the `Test/` folder:
 
-| File Name                                        | Description                                  |
-| ------------------------------------------------ | -------------------------------------------- |
-| `PTest.txt` (or `PTest1.txt`, `PTest2.txt`, ...) | Traversed folder and file paths              |
-| `ETest.txt`                                      | Paths where access was denied or failed      |
-| `STest.txt`                                      | Hidden files matching the selected extension |
+| File Name                                    | Description                                  |
+| -------------------------------------------- | -------------------------------------------- |
+| `PTest.txt`, `PTest1.txt`, `PTest2.txt`, ... | Traversed folder and file paths              |
+| `ETest.txt`                                  | Paths where access was denied or failed      |
+| `STest.txt`                                  | Hidden files matching the selected extension |
 
 ---
 
@@ -120,6 +121,8 @@ Contributions are welcome!
 ## 📄 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for more details.
+
+```
 
 ---
 
